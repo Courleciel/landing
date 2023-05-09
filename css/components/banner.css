@@ -1,0 +1,52 @@
+.banner-section {
+  background-image: url("../../images/Dwight.gif");
+}
+
+.banner-section h1 {
+  color: white;
+}
+.banner-section p {
+  color: white;
+  opacity: .7;
+  font-size: 20px;
+}
+
+.banner-section a:after {
+  display: inline-block;
+  color: white;
+  background-color: #4169E1;
+  border-radius: 150px;
+  padding : 15px 30px;
+  border: thick double #B0E0E6;
+  content: 'CLIQUE!';
+}
+
+
+
+.banner-section a:hover:after {
+  background-color: #e11313;
+  border: dashed gold;
+  transition : 2s;
+  color :black;
+  padding : 100px 100px;
+  font-size: 150px;
+  content: 'CLIIIIIIIIIQUE';
+}
+
+
+/* .banner-section a:hover {
+  background-color: #e11313;
+  border: dashed gold;
+  transition : 2s;
+  color :black;
+  padding : 25px 200px;
+  font-size: 150px;
+} */
+
+
+
+.banner-section {
+  background-size: cover;
+  background-position: center;
+  padding: 225px 0;
+}
